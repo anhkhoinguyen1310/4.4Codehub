@@ -1,0 +1,65 @@
+body 
+{
+    margin: 0;
+}
+nav 
+{
+    text-align: right;
+
+
+}
+nav > a
+{
+    margin-right: 1rem;
+
+}
+.circular 
+{
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.pictureGoogle
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100;
+}
+.Container
+{
+    text-align: center;
+
+}
+
+input 
+{
+    margin: 1rem;
+
+}
+
+section{
+    margin-top:  30vh;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+.top
+{
+    text-align: left  ;
+}
+
+.left
+{
+    text-align: left;
+}
+.right 
+{
+    text-align: right;
+    margin-right: 10rem;
+}

@@ -1,0 +1,120 @@
+.App
+{
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+.Navibar
+{
+  height: 80px; 
+  background-color: black; 
+  overflow: hidden;
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.logo
+{
+  width: 140px;
+  height: 40px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+.textNav
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header
+{
+  height: 805px; 
+  background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+} 
+.hero-img {
+  height: 100%; 
+  background-size: cover;
+  background-position: center;     
+  background-repeat: no-repeat;     
+  background-image: url("https://www.scdn.co/i/home/hero-burst.svg");     
+}
+.title 
+{
+  width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.btn-spotify {
+  width: 260px;
+  margin: 0 auto;
+  color: white;
+  background-color: #1db954;
+  padding: 18px 42px 18px;
+  border: 0px;
+  border-radius: 500px;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 2px;
+  transition-duration: .3s;
+}
+.btn-spotify:hover {
+  cursor: pointer;
+  background-color: #1ed760;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  max-height: 400px;
+  justify-content: space-around;
+  background-color: black ;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.column > h1 {
+  color: #919496;
+  font-size: 13.5px;
+}
+
+.column > h1, p {
+  margin-bottom: 15px;
+}
+
+.footer-logo > h1 {
+  color: white;
+  font-size: 2em;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
